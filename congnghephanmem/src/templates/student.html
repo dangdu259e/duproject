@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sinh viên</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="static/css/style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="task">
+        <ul>
+            <li><a href="login.html" title="giaovu" >Giáo vụ khoa</a></li>
+            <li><a href="teacher.html" title="giangvien">Giảng viên</a></li>
+            <li><a href="#" title="student" class="active">Sinh viên</a></li>
+        </ul>
+    </div>
+	<div id="banner_top">
+
+        <img src="../static/images/logo3.png">
+        <h1>Quản lý thời khoá biểu</h1>
+    </div>
+    <div id="menu_top">
+        <ul>
+            <li><a href="#" title="Home" >Home</a></li>
+            <li><a href="#" title="Admin">Admin</a></li>
+            <li><a href="#" title="Student Manager" class="active">Student Manager</a></li>
+            <li><a href="#" title="Lead Manager">Lead Manager</a></li>
+            <li><a href="#" title="Report">Report</a></li>
+            <li><a href="#" title="Logout">Logout</a></li>
+            <li><a href="#" title="Help">Help</a></li>
+        </ul>
+    </div>
+    <div id="main">
+    	<div id="left">
+            <ul>
+                <li class="fix" ><a href="#" title="Student List" class="active">Student List</a></li>
+                <li><a href="#" title="Course Learning">Course Learning</a></li>
+                <li><a href="#" title="Free Learning">Free Learning</a></li>
+                <li><a href="#" title="Register Absence">Register Absence</a></li>
+                <li><a href="#" title="Quick Payment">Quick Payment</a></li>
+                <li><a href="#" title="Detail">Detail</a></li>
+
+            </ul>
+        </div>
+    	<div id="right">
+            <h2><b>Thời khoá biểu kỳ I năm 2020</b></h2>
+            <!-- <input type="button" value="Add New"> -->
+            <div class="findbyname">
+                <b>Tên môn học:  &emsp;&emsp;</b>
+                <input type="text" name="namestu"/>
+                <a href="#" title="btnSearch">Search</a>
+                <a href="#" title="btnShowall">Show All</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Số thứ tự</th>
+                        <th class="fix">Mã môn học</th>
+                        <th>Môn học</th>
+                        <th>Số tín chỉ</th>
+                        <th>Thứ</th>
+                        <th>Tiết</th>
+                        <th>Giảng đường</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>MAT3543</td>
+                        <td>Công nghệ phần mềm</td>
+                        <td>3</td>
+                        <td>T3,T3</td>
+                        <td>1 - 2,2 - 5</td>
+                        <td>208T5,Phòng máy</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>MAT2404</td>
+                        <td>Giải tích số</td>
+                        <td>4</td>
+                        <td>T2,T4</td>
+                        <td>3 - 5,4 - 5</td>
+                        <td>103T4304T4</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>MAT3522</td>
+                        <td>Lập trình Python</td>
+                        <td>2</td>
+                        <td>T4,T5</td>
+                        <td>1 - 2,9 - 10</td>
+                        <td>103T4Phòng máy</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>MAT3524</td>
+                        <td> Linux	</td>
+                        <td>3</td>
+                        <td>T3,T4</td>
+                        <td>6 - 7,6 - 9</td>
+                        <td>108T5Phòng máy</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>MAT3543</td>
+                        <td>Nguyên lý hệ điều hành</td>
+                        <td>3</td>
+                        <td>T3,T3</td>
+                        <td>1 - 2,2 - 5</td>
+                        <td>208T5,Phòng máy</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>MAT3543</td>
+                        <td>Nhập môn Trí tuệ nhân tạo</td>
+                        <td>3</td>
+                        <td>T3,T3</td>
+                        <td>1 - 2,2 - 5</td>
+                        <td>208T5,Phòng máy</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MAT3543</td>
+                        <td>Thống kê ứng dụng</td>
+                        <td>4</td>
+                        <td>T3,T3</td>
+                        <td>1 - 2,2 - 5</td>
+                        <td>208T5,Phòng máy</td>
+                    </tr>
+                </tbody>
+            
+            </table>
+        </div>
+    </div>
+
+    <div id="sum">
+        <a>
+            Tổng số  tín đã đăng ký kỳ I năm 2020: 21 
+        </a>
+    </div>
+
+
+    <div id="footer">
+        <a>
+            Đặng Trung Du 18001108
+        </a>
+    </div>
+
+
+
+
+</body>
+</html>
