@@ -1,5 +1,4 @@
-# duproject
-## test  project
+# front-end manager student
+## author: dudt
+## School: VNU University of Science
 
-### note
-để chạy được project thì bạn cần vào congnghephanmem/src ==> template ==> chạy file index.html
